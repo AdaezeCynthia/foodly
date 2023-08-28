@@ -19,7 +19,7 @@ const Navbar = () => {
           <AiOutlineMenu   size={25} />
         </div>
         <h1 className='text-2xl sm:text-3xl lg:text-4xl px-2'> My
-              <span>
+              <span className='font-bold'>
                 Foodly
               </span>
         </h1>
@@ -42,7 +42,8 @@ const Navbar = () => {
             <BsFillCartFill size={20}  />Cart
         </button>
         {
-          sideNav ? (<div className='bg-black/60 fixed w-[100%] h-screen z-10 top-0 left-0 '>
+          sideNav ? (<div className='bg-black/60 fixed w-[100%]
+           h-screen z-10 top-0 left-0 ' onClick={()=> setSideNav(!sideNav)}>
 
           </div>) : ("")
         }
@@ -52,7 +53,7 @@ const Navbar = () => {
              
              <AiOutlineClose onClick={()=> setSideNav(!sideNav)}   size={25}
              className='absolute  right-4 top-4 cursor-pointer'/>
-             <h2 className='text-2xl p-4'>My<span className='text-red-600 font-bold'>Foodly </span></h2>
+             <h2 className='text-2xl p-4'>My<span className='text-red-700 font-bold'>Foodly </span></h2>
                      <nav>
                       <ul className='flex flex-col p-4 text-gray-900'>
                         <li className='text-xl py-4 flex'>
