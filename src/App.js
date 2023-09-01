@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar";
 import  Hero from './Components/Hero';
+import Delivery from './Components/Delivery'
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
           <Navbar/>
           <Hero/>
+          <Delivery/>
     </div>
   );
 }
