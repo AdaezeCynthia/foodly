@@ -13,7 +13,7 @@ export const topPicks = [
   },
   {
     id: 3,
-    title: 'yogurt parfaite',
+    title: 'yogurt parfait',
     price: '#1500',
     img: "https://res.cloudinary.com/ehizeex-shop/image/upload/v1672329944/NetflixApp/yogurt_parfait_kt8b5f.jpg"
   },
@@ -25,7 +25,7 @@ export const topPicks = [
   },
   {
     id: 5,
-    title: 'egg & plantain',
+    title: 'Plantain and Egg',
     price: '#1000',
     img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672331290/NetflixApp/edd_and_plantain_rey7l4.jpg',
   },

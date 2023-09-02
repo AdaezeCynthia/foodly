@@ -1,7 +1,7 @@
 import Navbar from "./Components/Navbar";
 import  Hero from './Components/Hero';
-import Delivery from './Components/Delivery'
-import TopPicks from "./Components/TopPicks";
+import Delivery from './Components/Delivery';
+import Picks from './Components/Picks';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
           <Navbar/>
           <Hero/>
           <Delivery/>
-          <TopPicks/>
+          <Picks/>
     </div>
   );
 }
