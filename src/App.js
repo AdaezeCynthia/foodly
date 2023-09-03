@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar";
 import  Hero from './Components/Hero';
 import Delivery from './Components/Delivery';
 import Picks from './Components/Picks';
+import Meal from "./Components/Meal";
 
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
           <Hero/>
           <Delivery/>
           <Picks/>
+          <Meal/>
+    
     </div>
   );
 }

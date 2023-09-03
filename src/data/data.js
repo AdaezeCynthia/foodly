@@ -56,7 +56,7 @@ export const topPicks = [
   {
     id: 10,
     title: 'Abacha',
-    price: '@2000',
+    price: '#2000',
     img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323870/NetflixApp/African_Salad_s7vgxn.png',
   },
   {
