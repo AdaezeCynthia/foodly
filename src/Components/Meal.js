@@ -1,8 +1,17 @@
-import React from 'react';
-import {mealData} from '../data/data';
+import React,{useState} from 'react';
+import {categories, mealData} from '../data/data';
 import {ArrowSmRightIcon} from '@heroicons/react/outline';
 
 const Meal = () => {
+  const [foods, setFoods] = useState(mealData)
+  const fillterCat = (category) => {
+    setFoods(
+      mealData.filter((item)=>
+      {
+        return item.category === category;
+      })
+    )
+  }
   return (
     <div className='max-w-[1520px] m-auto px-4 py-12'>
        <h1 className='text-red-700 font-bold text-center py-2'>
@@ -11,20 +20,29 @@ const Meal = () => {
 
      <div className='flex flex-col lg:flex-row justify-center '>
                <div className='flex justify-center md:justify-center'>
-               <button className='px-4 py-2 mr-2 rounded-2xl border-red-700 text-white bg-red-700 hover:bg-black/50 hover:text-red-700 hover:border-red-700' >
+               <button  
+               onClick={() => setFoods(mealData)}
+               className='px-4 py-2 mr-2 rounded-2xl border-red-700 text-white bg-red-700 hover:bg-black/50 hover:text-red-700 hover:border-red-700' >
             All </button>
             
-            <button className=' px-4 py-2  mr-2 rounded-2xl border-red-700 text-white bg-red-700 hover:bg-black/50 hover:text-red-700  hover:border-red-700 ' >
+            <button
+            onClick={() => fillterCat('pizza')}
+            className=' px-4 py-2  mr-2 rounded-2xl border-red-700 text-white bg-red-700 hover:bg-black/50 hover:text-red-700  hover:border-red-700 ' >
             Pizza </button>
-            <button className='px-4 rounded-2xl mr-2 border-red-700 text-white bg-red-700 hover:bg-black/50 hover:text-red-700  hover:border-red-700 ' >
+            <button
+            onClick={() => fillterCat('chicken')}
+            
+            className='px-4 rounded-2xl mr-2 border-red-700 text-white bg-red-700 hover:bg-black/50 hover:text-red-700  hover:border-red-700 ' >
           Chicken </button>
-            <button className=' px-4 rounded-2xl mr-2 border-red-700 text-white bg-red-700 hover:bg-black/50 hover:text-red-700  hover:border-red-700 ' >
+            <button 
+            onClick={() => fillterCat('Soup')}
+            className=' px-4 rounded-2xl mr-2 border-red-700 text-white bg-red-700 hover:bg-black/50 hover:text-red-700  hover:border-red-700 ' >
             Soups </button>
                </div>
      </div>
      <div className='grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 gap-6 py-4'>
       {
-        mealData.map((item) =>(
+        foods.map((item) =>(
           <div  key={item.id}  className='border-none hover:scale-105 duration-300'>
             <img src={item.image}
             className='w-full h-[200px] object-cover rounded-lg '

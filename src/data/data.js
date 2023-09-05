@@ -102,7 +102,7 @@ export const mealData = [
     price: '$140',
   },
   {
-    id: 8,
+    id: 9,
     name: 'Okoro Soup',
     category: 'Soup',
     image:
@@ -110,7 +110,7 @@ export const mealData = [
     price: '#6000',
   },
   {
-    id: 9,
+    id: 10,
     name: 'Afang Soup',
     category: 'Soup',
     image:
@@ -118,7 +118,7 @@ export const mealData = [
     price: '#3000',
   },
   {
-    id: 10,
+    id: 11,
     name: 'Nsala Soup',
     category: 'Soup',
     image:
@@ -126,7 +126,7 @@ export const mealData = [
     price: '#3000',
   },
   {
-    id: 11,
+    id: 12,
     name: 'Fisheman Soup',
     category: 'Soup',
     image:
@@ -134,7 +134,15 @@ export const mealData = [
     price: '#2000',
   },
   {
-    id: 12,
+    id: 13,
+    name: 'PepperSoup',
+    category: 'Soup',
+    image:
+      'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1693743028/assetss/pepper_soup_ndlooe.jpg',
+    price: '#5000',
+  },
+  {
+    id: 14,
     name: 'chiken_shawarma',
     category: 'chiken',
     image:
@@ -142,7 +150,7 @@ export const mealData = [
     price: '$100',
   },
   {
-    id: 13,
+    id: 15,
     name: 'Wings',
     category: 'chicken',
     image:
@@ -150,7 +158,7 @@ export const mealData = [
     price: '$100',
   },
   {
-    id: 14,
+    id: 16,
     name: 'Roasted Chicken',
     category: 'chicken',
     image:
@@ -158,7 +166,7 @@ export const mealData = [
     price: '$300',
   },
   {
-    id: 15,
+    id: 17,
     name: 'Chicken Tenders',
     category: 'chicken',
     image:
