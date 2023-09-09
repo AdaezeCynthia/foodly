@@ -76,12 +76,13 @@ export const mealData = [
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672324456/NetflixApp/cheeseless_pizza_bkuecz.jpg',
     price: '$200',
+   
   },
   {
     id: 6,
     name: 'Supreme Pizza',
     category: 'pizza',
-    image:
+    image:  
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672324455/NetflixApp/Supreme_Pizza_jtvkj8.jpg',
     price: '$300',
   },

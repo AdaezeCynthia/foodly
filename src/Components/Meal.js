@@ -3,15 +3,18 @@ import {categories, mealData} from '../data/data';
 import {ArrowSmRightIcon} from '@heroicons/react/outline';
 
 const Meal = () => {
+ 
   const [foods, setFoods] = useState(mealData)
   const fillterCat = (category) => {
     setFoods(
       mealData.filter((item)=>
       {
-        return item.category === category;
+        return item.category === category; 
       })
     )
   }
+ 
+  
   return (
     <div className='max-w-[1520px] m-auto px-4 py-12'>
        <h1 className='text-red-700 font-bold text-center py-2'>
@@ -57,6 +60,7 @@ const Meal = () => {
 
               </div>
               <div className='pl-2 py-4 -mt-7'>
+
                 <p className='flex items-center text-indigo-600'>Veiw More <ArrowSmRightIcon className='w-5 ml-2'/></p>
 
                 </div>
