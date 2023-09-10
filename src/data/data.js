@@ -78,7 +78,7 @@ export const mealData = [
     price: '$200',
    
   },
-  {
+  { 
     id: 6,
     name: 'Supreme Pizza',
     category: 'pizza',

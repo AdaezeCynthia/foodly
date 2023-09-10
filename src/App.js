@@ -6,6 +6,9 @@ import Meal from "./Components/Meal";
 import Trending from "./Components/Trending";
 import Newsletter from './Components/Newsletter';
 import Footer from './Components/Footer';
+import Newrep from "./Components/Newrep";
+
+
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
           <Trending/>
           <Newsletter/>
           <Footer/>
+          <Newrep/>
     
     </div>
   );

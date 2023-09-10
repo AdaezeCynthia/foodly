@@ -1,8 +1,8 @@
- export const ingredients = [
+ export const ingredient = [
     {
       id: 1,
-      recipe: 'Egusi',
-      items: [
+      recipe: 'Egusi', 
+      ing: [
         '10 pieces Turkey, smoked fish',
         '1 cup blended onions (about 3- 5 and fresh chilies, to taste)',
         '2 cups egusi (melon seeds, ground or milled)',
@@ -34,7 +34,7 @@
     {
       id:2,
       recipe: 'Fried rice',
-      items: [
+      ing: [
        ' 2 cups chopped baby carrots',
 
   ' 1/2 cup frozen green peas',
@@ -66,7 +66,7 @@
     {
         id:3,
       recipe: 'Pepper soup',
-      items: [
+      ing: [
          '1 kg of assorted meat (goat or cow)',
 '3 Seeds of Ehu',
 'Scent leaves (a handful)',
@@ -92,7 +92,7 @@
     {
         id:4,
         recipe: 'Jollof Spaghetti',
-        items: [
+        ing: [
             'Spaghetti',
             'Red bell peppers, tomatoes, scotch bonnet, and onions',
             'Onions, garlic, and fresh ginger',
@@ -115,7 +115,7 @@
       { 
         id:5,
         recipe: 'Plantain Pancakes',
-        items: [
+        ing: [
             '4 Plantain large ripe or overripe',
             '3 Eggs',
             '1/4 Cup Flour',
@@ -138,7 +138,7 @@
 {
       id: 6,
         recipe: 'Sausage Bread Rolls',
-        items: [
+        ing: [
             '2 Cups Bread flour plus about a handful for kneading',
             '2 Tbsp. Butter Melted',
             '1/2 Tbsp. Yeast',
@@ -162,8 +162,87 @@
       },
 
       {
+        id:7,
+        recipe: 'Healthy Peanut Butter Cookies',
+        ing: [
+            '1 cup peanut butter',
+            '3 Tbsp honey or maple syrup',
+            '1/2 tbsp vanilla optional',
+           '1 egg or 1 flax egg - 1 tbsp ground flax + 3 tbsp water',
+            '1-1/4 cup Quick oats',
+            '1/2 tsp baking powder',
+         
+        ],
+
+        process:[
+            'Combine the honey, peanut butter, Vanilla, and Egg.',
+            'Stir in the Oatmeal, and baking powder and mix until a dough is formed',
+            'scoop out a small dough roll it into a ball and flatten it out.',
+            'Bake for at 350 degrees Fahrenheit for 10 minutes',
+            'I feel these are best when freshly baked but my family thinks the next day cookies are best. Let me know what you think.',
+        ]
+      },
+
+      { id:8,
+        recipe: 'Puff-puff',
+        ing: [
+            '2 cups (250g) of Plain Flour',
+            '2 teaspoons of yeast (the one used in baking bread)',
+            '1/2 teaspoon ground nutmeg',
+            '1/2 cup granulated sugar (or to your taste)',
+            '3 pinches of salt',
+            'Lukewarm water (for mixing)',
+            'Vegetable Oil (for frying)',
+        ],
+        process:[
+        'Put the flour in a bowl, add the ground nutmeg, powdered yeast, sugar and salt. Mix all these together.',
+'Add water in small quantities and mix everything by hand till you have a good blend of all the ingredients. Add the yeast you mixed with lukewarm water if applicable. Use warm water to mix the puff puff ingredients if you want it to rise faster.',
+'Keep mixing till the batter is smooth but not too watery to flow from a spoon. The mix should be much thicker than pancake batter (see video below).',
+'Cover the bowl with aluminum foil and make sure it is airtight by pressing the edges of the bowl (see video).',
+'Leave to rise for about 45 minutes. When OK to fry, the Puff Puff batter should have risen in quantity and will have some air bubbles.',
+'Pour some oil in a deep pot and allow to heat up.',
+'When the oil is hot enough, scoop some batter into the oil ',
+'Once the underside of the puff puff has turned golden brown, flip the ball so that the topside will be fried as well.',
+'When both sides are golden brown, take out the puff puff balls and place in a sieve. ',
+        ]
+      },
+
+      { 
+        id: 9,
+        recipe: 'Vegetable soup',
+        ing: [
+            'Big bowl Waterleaves',
+            'Big bowl ugu leaves (fluted pumpkin)',
+            'Roasted mackerel',
+            '1KG or 35 Ounces of Goat meat',
+            '1 cup crayfish',
+            '6 scotch bonnet peppers',
+            '400ml Palm oil',
+            '2 seasoning cubes',
+            'Salt to taste',
+            '2 tablespoons Ground Ofor',
+        ],
+        process:[
+            'Slice the water leaves and fluted pumpkin leaves with a kitchen knife, you want them thinly sliced as you can see below.',
+            'Wash the roasted fish, remove center bone and break to smaller bits',
+            'Season the goat meat with a teaspoon of salt, sliced onions and two seasoning cubes. Allow the meat to boil, add two cups of water and let the meat cook until it becomes tender and easy to chew.',
+              'When the meat cooked and the water is almost completely dried, add the palm oil, 400ml.',
+              'Now you add the vegetables, the water leaves should come first. It should fill the pot, it will go down in 3 minutes as you continue to stir.',
+              'Add the pounded crayfish and peppers.',
+              'Stir all together and taste for salt, add salt to your taste',
+              'Add the ugu leaves (fluted pumpkin) at this point.',
+
+'Stir in 2 tablespoons of ofor (used as a thickener). Turn properly so it doesn’t form crumbs.',
+'Stir all together and allow the vegetable soup to simmer for three minutes.',
+       
+       
+        ]
+
+      },
+
+      {
         recipe: 'Bread',
-        items: [
+        ing: [
           '3 cups of bread flour',
           '2 teaspoons of salt',
           '2 tablespoons of sugar',
@@ -172,62 +251,9 @@
         ],
       },
 
-      {
-        recipe: 'Bread',
-        items: [
-          '3 cups of bread flour',
-          '2 teaspoons of salt',
-          '2 tablespoons of sugar',
-          '2 1/4 teaspoons of active dry yeast',
-          // Add more bread-specific ingredients
-        ],
-      },
-
-      {
-        recipe: 'Bread',
-        items: [
-          '3 cups of bread flour',
-          '2 teaspoons of salt',
-          '2 tablespoons of sugar',
-          '2 1/4 teaspoons of active dry yeast',
-          // Add more bread-specific ingredients
-        ],
-      },
-
-      {
-        recipe: 'Bread',
-        items: [
-          '3 cups of bread flour',
-          '2 teaspoons of salt',
-          '2 tablespoons of sugar',
-          '2 1/4 teaspoons of active dry yeast',
-          // Add more bread-specific ingredients
-        ],
-      },
-
-      {
-        recipe: 'Bread',
-        items: [
-          '3 cups of bread flour',
-          '2 teaspoons of salt',
-          '2 tablespoons of sugar',
-          '2 1/4 teaspoons of active dry yeast',
-          // Add more bread-specific ingredients
-        ],
-      },
-
-      {
-        recipe: 'Bread',
-        items: [
-          '3 cups of bread flour',
-          '2 teaspoons of salt',
-          '2 tablespoons of sugar',
-          '2 1/4 teaspoons of active dry yeast',
-          // Add more bread-specific ingredients
-        ],
-      },
+      
     // Add more recipes and their ingredients as needed
   ];
   
-  export default ingredients;
+  export default ingredient;
   
