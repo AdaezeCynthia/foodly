@@ -10,13 +10,13 @@ const Delivery = () => {
       </h3>
       <div className=' flex    flex-row' >
                 
-                   <div className='w-1/2   mx-3 my-4 rounded-md ' >
+                   <div className=' object-cover flex py-5 my-4 rounded-md ' >
                     <img  className='rounded-md' src='https://res.cloudinary.com/dbkc6y0cy/image/upload/v1693560622/Newcastle_Photographer___David_Griffen_Photography_iyaou0.jpg'/>
+                    </div>
                    
-                   
-                    <div className='w-1/2 py-[20%] sm:my-8 '>
+                    <div className=' py-[20%] sm:my-8 px-2'>
                     <p className='text-orange-700  font-bold'>Get Cooking</p>
-                    <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Experience the ultimate convenience with</h1>
+                    <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Experience the ultimate convenience us</h1>
                       <p >
                       Get your favorite dishes delivered to your doorstep within 30 minutes.
                        Craving a culinary adventure at home? We've got you covered. Order our premium ingredients, and we'll
@@ -28,7 +28,7 @@ const Delivery = () => {
                       </div>
                    </div>
     </div>
-    </div>
+    
 
     
   )

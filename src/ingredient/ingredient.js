@@ -2,7 +2,7 @@
     {
       id: 1,
       recipe: 'Egusi', 
-      img:'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694377780/assetss/eg2_qorcoy.jpg',
+      img:'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694468568/assetss/e_soup_vnofqo.jpg',
       ing: [
         '10 pieces Turkey, smoked fish',
         '1 cup blended onions (about 3- 5 and fresh chilies, to taste)',
@@ -35,7 +35,7 @@
     {
       id:2,
       recipe: 'Fried rice',
-      img: 'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1693181043/assetss/fried_rice_mr7snu.jpg',
+      img: 'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694467937/assetss/fried_picjaf.jpg',
       ing: [
        ' 2 cups chopped baby carrots',
 
@@ -68,7 +68,7 @@
     {
         id:3,
       recipe: 'Pepper soup',
-     img: 'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1693743028/assetss/pepper_soup_ndlooe.jpg',
+     img: 'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694468425/assetss/peps_hrovob.jpg',
       ing: [
          '1 kg of assorted meat (goat or cow)',
 '3 Seeds of Ehu',
@@ -95,7 +95,7 @@
     {
         id:4,
         recipe: 'Jollof Spaghetti',
-        img:'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694376014/assetss/j_spag_yz3qbu.jpg',
+        img:'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694468569/assetss/j_s_ynaenm.jpg',
         ing: [
             'Spaghetti',
             'Red bell peppers, tomatoes, scotch bonnet, and onions',
