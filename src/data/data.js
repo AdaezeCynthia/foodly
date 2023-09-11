@@ -75,7 +75,7 @@ export const mealData = [
     category: 'pizza',
     image:
       'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694468917/assetss/cheeseless_pizza_cnn9rh.jpg',
-    price: '$200',
+    price: '#5000',
    
   },
   { 
@@ -84,7 +84,7 @@ export const mealData = [
     category: 'pizza',
     image:  
       'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694468917/assetss/Supreme_Pizza_tco4uo.jpg',
-    price: '$300',
+    price: '#10,000',
   },
   {
     id: 7,
@@ -92,7 +92,7 @@ export const mealData = [
     category: 'pizza',
     image:
       'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694468917/assetss/pepperoni_pizza_s3sjou.jpg',
-    price: '$100',
+    price: '#8000',
   },
   {
     id: 8,
@@ -100,7 +100,7 @@ export const mealData = [
     category: 'pizza',
     image:
       'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694468917/assetss/Cheese_Pizza_gpfqtk.jpg',
-    price: '$140',
+    price: '#6000',
   },
   {
     id: 9,
@@ -132,14 +132,14 @@ export const mealData = [
     category: 'Soup',
     image:
       'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1693646575/assetss/fisher_man_vrf3qu.jpg',
-    price: '#2000',
+    price: '#15000',
   },
   {
     id: 13,
     name: 'PepperSoup',
     category: 'Soup',
     image:
-      'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1693743028/assetss/pepper_soup_ndlooe.jpg',
+      'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694468425/assetss/peps_hrovob.jpg',
     price: '#5000',
   },
   {
@@ -148,7 +148,7 @@ export const mealData = [
     category: 'chiken',
     image:
       'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694469428/assetss/chiken_shawarma_gd839l.jpg',
-    price: '$100',
+    price: '#2000',
   },
   {
     id: 15,
@@ -156,7 +156,7 @@ export const mealData = [
     category: 'chicken',
     image:
       'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694469428/assetss/Wings_tnkqpe.jpg',
-    price: '$100',
+    price: '#7000',
   },
   {
     id: 16,
@@ -164,7 +164,7 @@ export const mealData = [
     category: 'chicken',
     image:
       'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694469429/assetss/Roasted_Chicken_mjkf9q.jpg',
-    price: '$300',
+    price: '#10,000',
   },
   {
     id: 17,
@@ -172,7 +172,7 @@ export const mealData = [
     category: 'chicken',
     image:
       'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694469539/assetss/Chicken_Tenders_zj7m7j.jpg',
-    price: '$100',
+    price: '#10,000',
   },
 
 ];

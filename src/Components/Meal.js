@@ -18,7 +18,7 @@ const Meal = () => {
   return (
     <div className='max-w-[1520px] m-auto px-4 py-12'>
        <h1 className='text-red-700 font-bold text-center py-2'>
-      Our Meal
+      Our Menu Today
      </h1>
 
      <div className='flex flex-col lg:flex-row justify-center '>

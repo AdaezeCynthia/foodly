@@ -17,7 +17,7 @@ const Newrep = () => {
 
    <div className='max-w-[1520px] m-auto px-4 py-12'>
    <h1 className='text-red-700 font-bold text-center py-4' >
-           You Can Make it Yourselve. Get Recipe
+           You Can Also Make it Yourselve. Get Recipe
  </h1>
 
 
@@ -28,7 +28,7 @@ const Newrep = () => {
             <div >
             <img src={item.img} alt={item.name} className=' border-none hover:scale-105 duration-300 w-full h-[250px] object-cover rounded-lg '/>
             </div>
-            <p className='font-bold'>
+            <p className='font-bold my-4'>
                 {item.recipe}
             </p>
 

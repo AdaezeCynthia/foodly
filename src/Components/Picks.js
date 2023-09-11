@@ -9,7 +9,7 @@ const Picks = () => {
     <>
     
      <h1 className='text-red-700 font-bold text-center py-2'>
-      Top Picks 
+      Famous Menu
      </h1>
      <div className=' flex lg:flex max-w[1520px] m-auto py-2 px-2'>
       <Splide options={{perPage: 3, gap: '0.8rem', drag:'free', }}>

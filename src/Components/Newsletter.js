@@ -27,7 +27,7 @@ const Newsletter = () => {
                             </button>
               </div>
               <p>
-                We are concerned about the security of youyr data, Read{" "}
+                We are concerned about the security of your data, Read{" "}
               <span className='text-orange-700'>Privacy Policy</span>   
               </p>
         </div>

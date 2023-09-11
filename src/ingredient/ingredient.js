@@ -249,19 +249,7 @@
 
       },
 
-      {
-        recipe: 'Bread',
-        ing: [
-          '3 cups of bread flour',
-          '2 teaspoons of salt',
-          '2 tablespoons of sugar',
-          '2 1/4 teaspoons of active dry yeast',
-          // Add more bread-specific ingredients
-        ],
-      },
-
-      
-    // Add more recipes and their ingredients as needed
+    
   ];
   
   export default ingredient;

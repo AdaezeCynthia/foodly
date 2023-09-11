@@ -66,28 +66,28 @@ const Navbar = () => {
                         <li className='text-xl py-4 flex'>
                           <TbTruckReturn className='mr-4 text-white bg-black rounded-full'
                                     size={25}/>
-                                    Delivery
+                                    Track Delivery
 
                         </li>
 
                         <li className='text-xl py-4 flex'>
                           <MdOutlineFavorite className='mr-4 text-white bg-black rounded-full'
                                     size={25}/>
-                                    My Favorite
+                                    My Order
 
                         </li>
 
                         <li className='text-xl py-4 flex'>
                           <FaGoogleWallet className='mr-4 text-white bg-black rounded-full'
                                     size={25}/>
-                                  My   Wallet
+                                  My Wallet
 
                         </li>
 
                         <li className='text-xl py-4 flex'>
                           <MdHelp className='mr-4 text-white bg-black rounded-full'
                                     size={25}/>
-                                    Help
+                                    Customer Service
 
                         </li>
                         

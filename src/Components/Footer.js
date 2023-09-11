@@ -10,7 +10,7 @@ const Footer = () => {
                My Foodly
                </h1>
                <p>
-                tfhgjhkjlkijuhygfdxcvbnmkjhgfcdxcvbnm
+               Contact Us
                </p>
                <div className=' flex justify-between md:w-[75%] my-6 '>
                 <FaFacebookSquare size={30}/>
