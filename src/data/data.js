@@ -39,7 +39,7 @@ export const topPicks = [
     id: 7,
     title: 'jollof rice',
     price: '#4000',
-    img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672332323/NetflixApp/jollof_rice_gbzosf.webp',
+    img: 'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1693181047/assetss/S_jollof_wie3hn.jpg'
   },
   {
     id: 8,

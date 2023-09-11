@@ -18,10 +18,11 @@ function App() {
           <Delivery/>
           <Picks/>
           <Meal/>
+          <Newrep/>
           <Trending/>
           <Newsletter/>
           <Footer/>
-          <Newrep/>
+          
     
     </div>
   );

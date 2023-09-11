@@ -2,6 +2,7 @@
     {
       id: 1,
       recipe: 'Egusi', 
+      img:'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694377780/assetss/eg2_qorcoy.jpg',
       ing: [
         '10 pieces Turkey, smoked fish',
         '1 cup blended onions (about 3- 5 and fresh chilies, to taste)',
@@ -34,6 +35,7 @@
     {
       id:2,
       recipe: 'Fried rice',
+      img: 'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1693181043/assetss/fried_rice_mr7snu.jpg',
       ing: [
        ' 2 cups chopped baby carrots',
 
@@ -66,6 +68,7 @@
     {
         id:3,
       recipe: 'Pepper soup',
+     img: 'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1693743028/assetss/pepper_soup_ndlooe.jpg',
       ing: [
          '1 kg of assorted meat (goat or cow)',
 '3 Seeds of Ehu',
@@ -92,6 +95,7 @@
     {
         id:4,
         recipe: 'Jollof Spaghetti',
+        img:'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694376014/assetss/j_spag_yz3qbu.jpg',
         ing: [
             'Spaghetti',
             'Red bell peppers, tomatoes, scotch bonnet, and onions',
@@ -115,6 +119,7 @@
       { 
         id:5,
         recipe: 'Plantain Pancakes',
+        img:'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694376014/assetss/plantain_jydle5.jpg',
         ing: [
             '4 Plantain large ripe or overripe',
             '3 Eggs',
@@ -138,6 +143,7 @@
 {
       id: 6,
         recipe: 'Sausage Bread Rolls',
+        img:'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694376207/assetss/brad_dsed8h.jpg',
         ing: [
             '2 Cups Bread flour plus about a handful for kneading',
             '2 Tbsp. Butter Melted',
@@ -164,6 +170,7 @@
       {
         id:7,
         recipe: 'Healthy Peanut Butter Cookies',
+        img:'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1694376273/assetss/cookies_2_epwxi0.jpg',
         ing: [
             '1 cup peanut butter',
             '3 Tbsp honey or maple syrup',
@@ -185,6 +192,7 @@
 
       { id:8,
         recipe: 'Puff-puff',
+        img: 'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1693181045/assetss/puff_puff_aytj28.jpg',
         ing: [
             '2 cups (250g) of Plain Flour',
             '2 teaspoons of yeast (the one used in baking bread)',
@@ -210,6 +218,7 @@
       { 
         id: 9,
         recipe: 'Vegetable soup',
+        img: 'https://res.cloudinary.com/dbkc6y0cy/image/upload/v1693646228/assetss/afang_soup_laf0uh.jpg',
         ing: [
             'Big bowl Waterleaves',
             'Big bowl ugu leaves (fluted pumpkin)',
